@@ -44,7 +44,6 @@ class AppServiceProvider extends ServiceProvider
     {
         Model::unguard();
         Model::shouldBeStrict();
-
     }
 
     private function configCommands(): void
